@@ -11,7 +11,7 @@ We try to keep things neat and tidy, and group by directory. That way we know *i
 
 This of course prevents directory busting wordlist spaghetti, such as what happened to Dirb's included wordlists.
 
-This also allows you to easily build your own lists by catting together whatever might be most relevant to you - maybe you know you're scanning a PHP site and want to look for PHP-related information and vulnerabilities. It's super straightforward to optimize your search: grab the PHP, Composer, and file traversal lists... don't bother looking for `cgi-bin`!
+This also allows you to easily build your own lists by catting together whatever might be most relevant to you - maybe you know you're scanning a PHP site and want to look for PHP-related information and vulnerabilities. It's super straightforward to optimize your search: grab the PHP, Composer, and maybe file traversal lists... don't bother looking for `cgi-bin`!
 
 ## License
 
