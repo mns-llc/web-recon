@@ -1,3 +1,7 @@
+.git
 .git/HEAD
+.git/config
+.svn
+.svn/entries
 composer.json
 composer.lock

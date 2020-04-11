@@ -1,5 +1,5 @@
 composer.json:
-    title: "Composer"
+    title: "Composer Packages"
     description: "Contains Composer packages, revealing what is powering a PHP site."
     validation: /description/*"
 composer.lock:

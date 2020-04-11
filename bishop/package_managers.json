@@ -2,11 +2,11 @@
     {
         "description": "Contains Composer packages, revealing what is powering a PHP site.",
         "enabled": true,
-        "name": "Composer",
+        "name": "Composer Packages",
         "risk": "low",
         "searchString": "/description/*\"",
         "url": "composer.json",
-        "uid": "c5b19747a38e65080792c1fd967a84e4"
+        "uid": "fdcc3313563fcac20f51d06042c75dbd"
     },
     {
         "description": "Contains Composer packages, revealing what is powering a PHP site and what versions are used.",

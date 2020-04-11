@@ -1,21 +1,57 @@
 [
     {
+        "description": "Check to see if the .git directory returns a standard index",
+        "enabled": true,
+        "name": "Git Directory (Indexable)",
+        "risk": "low",
+        "searchString": "Index of(.| )*HEAD",
+        "url": ".git",
+        "uid": "a35f7e25cc5f8b8328e61e5a2bba23ba"
+    },
+    {
         "description": "A file which likely indicates a git repository is present.",
         "enabled": true,
         "name": "Git HEAD",
         "risk": "low",
-        "searchString": "/ref:/",
+        "searchString": "ref: (refs|[0-9a-fA-F]+)",
         "url": ".git/HEAD",
-        "uid": "188be0dd3c0c9f1acccdf5bfd1673402"
+        "uid": "4f896b2d68af085ab22decc4af141417"
+    },
+    {
+        "description": "A file which likely indicates a git repository is present.",
+        "enabled": true,
+        "name": "Git config",
+        "risk": "low",
+        "searchString": "[core]",
+        "url": ".git/config",
+        "uid": "971f0bda50fe286e18162528bb0a785d"
+    },
+    {
+        "description": "Check to see if the .svn directory returns a standard index",
+        "enabled": true,
+        "name": "SVN Directory (Indexable)",
+        "risk": "low",
+        "searchString": "Index(.| )*entries(.| )*props",
+        "url": ".svn",
+        "uid": "25d4099408e9c041ca79191c5dcb8db3"
+    },
+    {
+        "description": "Look for publicly accessible SVN entries",
+        "enabled": true,
+        "name": "SVN Directory",
+        "risk": "low",
+        "searchString": "svn:",
+        "url": ".svn/entries",
+        "uid": "e05d7667edf79046cd67ce0d8fa93760"
     },
     {
         "description": "Contains Composer packages, revealing what is powering a PHP site.",
         "enabled": true,
-        "name": "Composer",
+        "name": "Composer Packages",
         "risk": "low",
         "searchString": "/description/*\"",
         "url": "composer.json",
-        "uid": "c5b19747a38e65080792c1fd967a84e4"
+        "uid": "fdcc3313563fcac20f51d06042c75dbd"
     },
     {
         "description": "Contains Composer packages, revealing what is powering a PHP site and what versions are used.",
