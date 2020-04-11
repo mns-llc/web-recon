@@ -10,6 +10,10 @@ files = glob.glob("./sources/**/*.yml", recursive=True)
 def bishop_append(path, entry, source_class):
     global bishop_working_dict
 
+    # allow for unvalidate-able patsh to be added to wordlists, but not bishop
+    if "validation" not in entry.keys():
+        return
+
     bishop_working_entry = {
         "description": entry["description"],
         "enabled": True,

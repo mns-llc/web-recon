@@ -5,3 +5,4 @@
 .svn/entries
 composer.json
 composer.lock
+requirements.txt
