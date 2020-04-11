@@ -11,4 +11,5 @@
 .git/objects
 .git/packed-refs
 .git/refs
-.gitignore
+.gitignore.svn
+.svn/entries
