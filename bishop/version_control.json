@@ -1,0 +1,11 @@
+[
+    {
+        "description": "A file which likely indicates a git repository is present.",
+        "enabled": true,
+        "name": "Git HEAD",
+        "risk": "low",
+        "searchString": "/ref:/",
+        "url": ".git/HEAD",
+        "uid": "188be0dd3c0c9f1acccdf5bfd1673402"
+    }
+]

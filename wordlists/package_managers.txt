@@ -1,3 +1,2 @@
-.git/HEAD
 composer.json
 composer.lock

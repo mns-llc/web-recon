@@ -1,0 +1,29 @@
+[
+    {
+        "description": "A file which likely indicates a git repository is present.",
+        "enabled": true,
+        "name": "Git HEAD",
+        "risk": "low",
+        "searchString": "/ref:/",
+        "url": ".git/HEAD",
+        "uid": "188be0dd3c0c9f1acccdf5bfd1673402"
+    },
+    {
+        "description": "Contains Composer packages, revealing what is powering a PHP site.",
+        "enabled": true,
+        "name": "Composer",
+        "risk": "low",
+        "searchString": "/description/*\"",
+        "url": "composer.json",
+        "uid": "c5b19747a38e65080792c1fd967a84e4"
+    },
+    {
+        "description": "Contains Composer packages, revealing what is powering a PHP site and what versions are used.",
+        "enabled": true,
+        "name": "Composer Lockfile",
+        "risk": "low",
+        "searchString": "/This file locks the dependencies of your project to a known state/",
+        "url": "composer.lock",
+        "uid": "967eb2e219a2326d608cf9b0e58b9e05"
+    }
+]

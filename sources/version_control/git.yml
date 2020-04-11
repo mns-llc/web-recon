@@ -1,0 +1,4 @@
+.git/HEAD:
+    title: "Git HEAD"
+    description: "A file which likely indicates a git repository is present."
+    validation: "/ref:/"

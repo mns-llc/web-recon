@@ -1,0 +1,8 @@
+composer.json:
+    title: "Composer"
+    description: "Contains Composer packages, revealing what is powering a PHP site."
+    validation: /description/*"
+composer.lock:
+    title: "Composer Lockfile"
+    description: "Contains Composer packages, revealing what is powering a PHP site and what versions are used."
+    validation: "/This file locks the dependencies of your project to a known state/"
