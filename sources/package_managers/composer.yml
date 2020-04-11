@@ -1,8 +1,8 @@
 composer.json:
-    title: "Composer Packages"
-    description: "Contains Composer packages, revealing what is powering a PHP site."
-    validation: /description/*"
+    title: 'Composer Packages'
+    description: 'Contains Composer packages, revealing what is powering a PHP site.'
+    validation: '("require"|"require-dev")'
 composer.lock:
-    title: "Composer Lockfile"
-    description: "Contains Composer packages, revealing what is powering a PHP site and what versions are used."
-    validation: "/This file locks the dependencies of your project to a known state/"
+    title: 'Composer Lockfile'
+    description: 'Contains Composer packages, revealing what is powering a PHP site and what versions are used.'
+    validation: 'This file locks the dependencies of your project to a known state'

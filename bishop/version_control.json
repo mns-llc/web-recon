@@ -22,9 +22,9 @@
         "enabled": true,
         "name": "Git config",
         "risk": "low",
-        "searchString": "[core]",
+        "searchString": "\\[core\\]",
         "url": ".git/config",
-        "uid": "971f0bda50fe286e18162528bb0a785d"
+        "uid": "50af5ac092bcc449b1bb4670c4129c6b"
     },
     {
         "description": "Check to see if the .svn directory returns a standard index",
