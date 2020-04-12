@@ -1,0 +1,6 @@
+phpmyadmin/scripts/setup.php
+typo3/phpmyadmin/scripts/setup.php
+php/scripts/setup.php
+phpma/scripts/setup.php
+wp-admin/install.php
+blog/wp-admin/install.php

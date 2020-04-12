@@ -1,0 +1,16 @@
+phpmyadmin/scripts/setup.php:
+    title: 'Default phpMyAdmin Setup'
+    description: 'Accessible phpMyAdmin setup page'
+    validation: 'You want to configure phpMyAdmin'
+typo3/phpmyadmin/scripts/setup.php:
+    title: 'Alternate phpMyAdmin Setup (Typo3)'
+    description: 'Accessible phpMyAdmin setup page'
+    validation: 'You want to configure phpMyAdmin'
+php/scripts/setup.php:
+    title: 'Alternate phpMyAdmin Setup (common option 1)'
+    description: 'Accessible phpMyAdmin setup page'
+    validation: 'You want to configure phpMyAdmin'
+phpma/scripts/setup.php:
+    title: 'Alternate phpMyAdmin Setup (common option 2)'
+    description: 'Accessible phpMyAdmin setup page'
+    validation: 'You want to configure phpMyAdmin'
