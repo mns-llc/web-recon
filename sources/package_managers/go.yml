@@ -1,0 +1,6 @@
+Gopkg.lock:
+    title: 'Go Package Lock'
+    description: 'Contains requirements for Go applications.'
+go.sum:
+    title: 'Go Sum Lock'
+    description: 'Contains requirements for Go applications.'

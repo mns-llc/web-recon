@@ -1,3 +1,11 @@
 composer.json
 composer.lock
 requirements.txt
+Gemfile
+Gemfile.lock
+Cargo.lock
+Gopkg.lock
+go.sum
+package.json
+npm-package.json
+yarn.lock

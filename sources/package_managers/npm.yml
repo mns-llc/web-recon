@@ -1,0 +1,6 @@
+package.json:
+    title: 'Node Package JSON'
+    description: 'Contains requirements for Node applications.'
+npm-package.json:
+    title: 'NPM Package JSON'
+    description: 'Contains requirements for Node/NPM applications.'

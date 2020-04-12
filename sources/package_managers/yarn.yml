@@ -1,0 +1,3 @@
+yarn.lock:
+    title: 'Yarn Lock'
+    description: 'Contains requirements for Yarn applications.'
